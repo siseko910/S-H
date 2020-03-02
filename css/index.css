@@ -1,0 +1,40 @@
+.top {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 300px;
+    background: #09071C ;
+    color: white;
+    padding:8px;
+    width: 100%;
+}
+.contactinfo {
+    font-size: 15px;
+}
+
+.Nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+.Nav ul li{
+   display: inline; 
+   margin: 10px;
+
+}
+
+
+
+
+.Nav ul li a{
+text-decoration: none;
+color:#fff;
+}
+
+header{
+    background-size:cover;
+  height: 650px;
+  color: #232323;
+    background: #09071C url("../images/Apparel_People.png");
+  background-position: center;
+}
