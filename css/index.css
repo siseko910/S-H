@@ -1,3 +1,10 @@
+html, body{
+font-family: 'Barlow' ;
+margin:0 auto;
+height: 100%;
+scroll-behavior: smooth;
+
+}
 .top {
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -11,20 +18,23 @@
 .contactinfo {
     font-size: 15px;
 }
-
+.logo img{
+  height: 200px;
+  width: 250px;
+  color: white;
+  margin-top: 300px;
+}
 .Nav ul{
     list-style: none;
     text-align: center;
+    margin-top: 70px;
 }
 
 .Nav ul li{
-   display: inline; 
+   display: inline;
    margin: 10px;
 
 }
-
-
-
 
 .Nav ul li a{
 text-decoration: none;
@@ -32,9 +42,82 @@ color:#fff;
 }
 
 header{
-    background-size:cover;
-  height: 650px;
+  height: 650px; */
+  background-size: cover;
   color: #232323;
-    background: #09071C url("../images/Apparel_People.png");
-  background-position: center;
+  background: #09071C url("../images/Apparel_People.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+.sug {
+
+ text-align: left;
+   margin-top: 100px;
+}
+.suggestion{
+  grid-column: auto;
+  display: inline-grid;
+  grid-template-columns:auto auto;
+  width:100%;
+  align-items: center;
+  margin-top: -100px;
+  height: 10px;
+}
+#Women{
+  font-size: 20px;
+  margin-left: 100px;
+  color: blue;
+}
+
+.naviagtion ul a:hover{
+  color:red;
+}
+.sug2{
+  margin-top: 100px;
+}
+.suggestion2{
+  margin-top: 600px;
+  grid-column: auto;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  width:100%;
+  align-items: center;
+  height: 10px;
+}
+
+#men{
+  font-size: 20px;
+  margin-left: 100px;
+  color: blue;
+  /* height: 300px; */
+}
+
+.sug3 img{
+  height: 650px;
+
+}
+.sug4 {
+  margin-left: -150px;
+}
+
+.sug2 img{
+  height: 500px;
+}
+.sug4 img{
+  height: 650px;
+}
+.sportshoes {
+  margin-top: 800px;
+}
+.ladies h1 p{
+margin-right: 100px;
+text-align: center;
+}
+
+#shoes{
+  margin-left: 100px;
+  font-size: 20px;
+  color: blue;
 }
